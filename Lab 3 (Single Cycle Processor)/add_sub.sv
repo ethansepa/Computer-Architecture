@@ -7,7 +7,7 @@ module add_sub(a, b, cin, sub, s, cout);
 	output logic s, cout;
 	
 	// Invert b
-	logic b_not, b_new;
+	logic b_not, b_new; 
 	not #50 (b_not, b);
 	
 	mux2_1 m (.i0(b), .i1(b_not), .sel(sub), .out(b_new));

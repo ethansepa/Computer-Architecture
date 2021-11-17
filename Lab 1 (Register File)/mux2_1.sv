@@ -1,4 +1,4 @@
-`timescale 1ps/1ps
+`timescale 1ps/1ps 
 // This builds a 2 to 1 mux.
 // Receives two input lines that are toggled onto the output
 // line by the sel input.

@@ -20,7 +20,7 @@ module add_sub_testbench();
 	logic s, cout;
 	
 	add_sub dut (.*);
-	
+	 
 	integer i;
 	initial begin
 		for(i = 0; i < 16; i++) begin
